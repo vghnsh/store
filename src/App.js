@@ -80,7 +80,7 @@ function App() {
                   <Take  uid={user?.uid}/>
                 </div>
                 {
-                  myList.length > 0 ? <div className='row'>
+                  (myList.length > 0 && user?.displayName) ? <div className='row'>
                   <div>
                       Quantity
                   </div>

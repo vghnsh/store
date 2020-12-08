@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  flex-direction: column;
+
+  .todoAPP {
+    text-align: center;
+    font-family: "Piedra", cursive;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .signIn {
+      background-color: gainsboro;
+    }
+    .signUp1 {
+      background-color: gainsboro;
+    }
+
+    .logout {
+      background-color: gainsboro;
+      padding: 0.5em;
+      margin: 0.5em;
+      cursor: pointer;
+    }
+
+    .pad {
+      padding: 0.5em;
+      margin: 0.5em;
+      width: 100%;
+    }
+    .link {
+      text-decoration: none;
+      color: black;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5em;
+
+  .title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.5em;
+    font-family: "Piedra", cursive;
+  }
+  .signDiv {
+    display: flex;
+    flex-direction: column;
+
+    .GoogleSign {
+      background-color: gainsboro;
+    }
+    .signBTN {
+      background-color: gainsboro;
+    }
+    .signUPBTN {
+      background-color: gainsboro;
+      //text-decoration: none;
+      margin-top: 0.5em;
+    }
+
+    .signForm {
+      display: flex;
+      flex-direction: column;
+
+      .mail {
+        margin: 0.5em;
+      }
+      .password {
+        margin: 0.5em;
+      }
+    }
+  }
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.link {
+  padding-top: 0.5em;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}

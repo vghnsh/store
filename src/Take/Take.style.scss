@@ -1,0 +1,31 @@
+.todoMain {
+  display: flex;
+  padding: 0.5em;
+  justify-content: center;
+
+  .pri {
+    display: flex;
+    flex-direction: column;
+    .select {
+      display: flex;
+      justify-content: center;
+      .Uselect {
+        width: 100%;
+      }
+    }
+    .pri_title {
+      text-align: center;
+      background-color: gainsboro;
+      font-weight: bold;
+      height: 1.5em;
+    }
+  }
+}
+.todoBTN {
+  height: 4em;
+  width: 8em;
+  background-color: gainsboro !important;
+}
+.MuiSelect-select.MuiSelect-select {
+  padding-left: 20px;
+}

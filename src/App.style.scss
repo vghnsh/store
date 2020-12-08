@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  justify-content: center;
+  .main {
+    display: flex;
+    flex-direction: column;
+    .Top {
+      background-color: white;
+      position: sticky;
+      top: 0;
+      .row {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.7em 2em;
+        font-weight: bold;
+        background-color: gainsboro;
+        border-radius: 0.5em;
+      }
+    }
+    .mainList {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+}
+* {
+  margin: 0;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}

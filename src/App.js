@@ -90,24 +90,21 @@ function App() {
                   <div>
                       Action
                   </div>
-              </div> :
-              ''
+                  </div> :
+                  ''
                 }
                 
               </div>
-             <div className='mainList'>
-               {
-                 user?.displayName? 
-                 myList?.map((td)=>(
-                  <Mylist key={td.id} list={td} />
-                 ))
-                 :
-                 ''
-               }
-              
-             </div>
-
-              
+              <div className='mainList'>
+                {
+                  user?.displayName? 
+                  myList?.map((td)=>(
+                    <Mylist key={td.id} list={td} />
+                  ))
+                  :
+                  ''
+                }
+              </div>
             </div>
             
           </Route>
